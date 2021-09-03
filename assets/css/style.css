@@ -239,11 +239,11 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #39b54a;
+  background-color: #00bfff;
 }
 
 .bg-color--subcolor {
-  background-color: #d9e021;
+  background-color: #e0ffff;
 }
 
 .bg-color--gray {
@@ -336,7 +336,7 @@ button {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  background-color: #006837;
+  background-color: #1e90ff;
   color: #fff;
   font-size: 24px;
   line-height: 1.54167;
