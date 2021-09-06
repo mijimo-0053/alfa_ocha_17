@@ -198,7 +198,7 @@ button {
           transform: rotate(90deg);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  fill: #1e90ff;
+  fill: #47266e;
   width: 12px;
   height: 24px;
 }
@@ -292,7 +292,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #1e90ff;
+  background-color: #47266e;
 }
 
 .section-title--story {
@@ -307,7 +307,7 @@ button {
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #1e90ff;
+  color: #47266e;
 }
 
 .section-title--border::after {
@@ -336,7 +336,7 @@ button {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  background-color: #1e90ff;
+  background-color: #47266e;
   color: #fff;
   font-size: 24px;
   line-height: 1.54167;
