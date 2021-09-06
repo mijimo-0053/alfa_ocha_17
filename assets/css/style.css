@@ -26,6 +26,7 @@ body {
   list-style: none;
   color: #000;
   margin: 0;
+  background-color: #e6e6e6;
 }
 
 img {
@@ -78,7 +79,7 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  background-color: #19448e;
+  background-color: #47266e;
   color: #fff;
   width: 287px;
   height: 55px;
