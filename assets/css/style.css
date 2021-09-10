@@ -15,7 +15,7 @@ html {
           box-sizing: border-box;
 }
 
-body {
+.body-main-index {
   overflow-x: hidden;
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
   font-size: 18px;
@@ -27,6 +27,20 @@ body {
   color: #000;
   margin: 0;
   background-color: #a4a8d4;
+}
+
+.body-final {
+  overflow-x: hidden;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-size: 18px;
+  line-height: 1.77778;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  color: #000;
+  margin: 0;
+  background-color: #fff;
 }
 
 img {
@@ -247,6 +261,10 @@ button {
   background-color: #d6adff;
 }
 
+.bg-color--subcolor-final {
+  background-color: #afeeee;
+}
+
 .bg-color--gray {
   background-color: #cfd0ff;
 }
@@ -311,6 +329,16 @@ button {
   margin: 0;
   padding-bottom: 15px;
   color: #47266e;
+}
+
+.section-title--border-final {
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.06667;
+  margin: 0;
+  padding-bottom: 15px;
+  color: #00bfff;
 }
 
 .section-title--border::after {
