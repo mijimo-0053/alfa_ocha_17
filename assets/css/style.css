@@ -185,6 +185,15 @@ button {
   position: relative;
 }
 
+.card__content-final {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 16px;
+  padding: 20px 30px;
+  margin: 0;
+  position: relative;
+}
+
 .card__content::before {
   display: block;
   content: '';
