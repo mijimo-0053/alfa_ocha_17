@@ -284,6 +284,10 @@ button {
   background-color: #cfd0ff;
 }
 
+.bg-color--gray-final {
+  background-color: #e6e6e6;
+}
+
 /*********************
 * title
 **********************/
@@ -366,6 +370,17 @@ button {
 }
 
 .section-title--border::after {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 95px);
+  display: block;
+  content: '';
+  background-color: #fff;
+  height: 2.6px;
+  width: 190px;
+}
+
+.section-title--border-final::after {
   position: absolute;
   bottom: 0;
   left: calc(50% - 95px);
