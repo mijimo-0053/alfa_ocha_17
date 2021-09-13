@@ -26,6 +26,11 @@ const app = Vue.createApp({
           // q3: 'サーフィン'
         },
         stage3: {
+          q1: 'サーフィン',
+          // q2: 'サーフィン',
+          // q3: 'サーフィン' 
+        },
+        stage4: {
           q1: '心',
           // q2: '心',
           // q3: '心',
@@ -48,6 +53,11 @@ const app = Vue.createApp({
           false, // 3-1
           // false, // 3-2
           // false, // 3-3
+        ],
+        stage4: [
+          false, // 4-1
+          // false, // 4-2
+          // false, // 4-3
         ]
       },
 
@@ -56,6 +66,7 @@ const app = Vue.createApp({
         stage1: false,
         stage2: false,
         stage3: false,
+        stage4: false,
       },
 
       /* 次のステージを表示するかどうか
@@ -64,6 +75,7 @@ const app = Vue.createApp({
       next: {
         stage1: false,
         stage2: false,
+        stage3: false,
       },
     }
   },
