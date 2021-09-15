@@ -10,9 +10,12 @@
 }
 
 .video1 {
+  text-align: center;
+}
+
+video{
   width: 50%;
   height: 50%;
-  text-align: center;
 }
 
 html {
