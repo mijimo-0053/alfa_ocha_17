@@ -9,6 +9,12 @@
           box-sizing: border-box;
 }
 
+.コンポ 1_2 (1)-mp4 {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+}
+
 html {
   font-size: 18px;
   -webkit-box-sizing: border-box;
